@@ -107,4 +107,4 @@ resposta <- data.frame(dados_teste$PassengerId,as.integer(predict(mod1,dados_tes
 names(resposta) <- c("PassengerId", "Survived")
 resposta #temos nossas respostas, vamos exportar para upar no kaggle e ver se o modelo ficou +- bom
 
-write_csv(resposta, "C:\\Users\\kinki\\OneDrive\\Estudos\\Kaggle\\Titanic Learning from Disaster\\resposta2.csv")
+write_csv(resposta, "Caminho")
